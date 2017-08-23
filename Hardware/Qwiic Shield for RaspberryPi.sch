@@ -28063,8 +28063,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
 <instance part="LOGO1" gate="G$1" x="134.62" y="10.16"/>
-<instance part="FD1" gate="G$1" x="149.86" y="38.1"/>
-<instance part="FD2" gate="G$1" x="154.94" y="38.1"/>
+<instance part="FD1" gate="G$1" x="243.84" y="27.94"/>
+<instance part="FD2" gate="G$1" x="243.84" y="25.4"/>
 <instance part="J1" gate="G$1" x="205.74" y="149.86" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="216.154" y="158.496" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="200.66" y="141.986" size="1.778" layer="95" font="vector" rot="MR180"/>
@@ -28115,8 +28115,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="218.44" y="76.2"/>
 <instance part="GND8" gate="1" x="215.9" y="63.5"/>
-<instance part="FD3" gate="G$1" x="152.4" y="38.1"/>
-<instance part="FD4" gate="G$1" x="157.48" y="38.1"/>
+<instance part="FD3" gate="G$1" x="246.38" y="27.94"/>
+<instance part="FD4" gate="G$1" x="246.38" y="25.4"/>
 <instance part="LOGO2" gate="G$1" x="148.59" y="7.366"/>
 </instances>
 <busses>

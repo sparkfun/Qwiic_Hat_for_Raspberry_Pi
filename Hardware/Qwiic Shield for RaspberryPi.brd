@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -234,6 +234,8 @@ RasPi</text>
 <wire x1="51.308" y1="11.303" x2="51.816" y2="11.811" width="0.3048" layer="22"/>
 <text x="48.641" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
 <text x="21.59" y="-26.67" size="1.778" layer="51" font="vector">A. England</text>
+<dimension x1="0" y1="0" x2="0" y2="22.86" x3="-8.89" y3="11.43" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="52.07" y1="0" x2="0" y2="0" x3="26.035" y3="-5.08" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -4276,11 +4278,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="D12">
 <contactref element="U3" pad="32"/>
 <contactref element="J4" pad="2"/>
-<wire x1="36.83" y1="8.89" x2="36.83" y2="12.7" width="0.1778" layer="1"/>
-<wire x1="36.83" y1="12.7" x2="38.862" y2="14.732" width="0.1778" layer="1"/>
-<wire x1="40.12" y1="15.905" x2="39.146" y2="15.905" width="0.1778" layer="1"/>
-<wire x1="39.146" y1="15.905" x2="38.862" y2="15.621" width="0.1778" layer="1"/>
-<wire x1="38.862" y1="15.621" x2="38.862" y2="14.732" width="0.1778" layer="1"/>
+<wire x1="36.83" y1="8.89" x2="36.83" y2="10.922" width="0.2032" layer="1"/>
+<wire x1="36.83" y1="10.922" x2="40.132" y2="14.224" width="0.1778" layer="1"/>
+<wire x1="40.132" y1="14.224" x2="40.132" y2="15.893" width="0.1778" layer="1"/>
+<wire x1="40.132" y1="15.893" x2="40.12" y2="15.905" width="0.2032" layer="1"/>
 </signal>
 <signal name="D13">
 <contactref element="U3" pad="33"/>
@@ -4629,8 +4630,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,1,6b9037115761cbe2"/>
 <approved hash="4,1,05d47559755919d6"/>
 <approved hash="4,1,e590751f756ff9e2"/>
-<approved hash="4,1,c396531733676be4"/>
 <approved hash="4,1,97dc335f535f3fde"/>
+<approved hash="4,1,c396531733676be4"/>
 <approved hash="4,1,018e5d114d7e65fc"/>
 <approved hash="4,1,99da4d475d47fdc7"/>
 <approved hash="4,1,63964f115f6103e5"/>
