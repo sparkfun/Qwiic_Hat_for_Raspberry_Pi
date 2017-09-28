@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -159,7 +159,7 @@
 <wire x1="0" y1="20.447" x2="0" y2="2.54" width="0.2032" layer="20"/>
 <wire x1="52.324" y1="2.54" x2="52.324" y2="20.447" width="0.2032" layer="20"/>
 <text x="47.117" y="2.54" size="1.524" layer="21" font="vector" ratio="15" rot="R180" align="center">Qwiic
-RasPi</text>
+PiHat</text>
 <text x="22.86" y="-24.13" size="1.778" layer="51" font="vector">N. Seidle</text>
 <wire x1="49.784" y1="22.987" x2="2.54" y2="22.987" width="0.2032" layer="20"/>
 <wire x1="49.784" y1="0" x2="2.54" y2="0" width="0.2032" layer="20"/>
@@ -205,7 +205,7 @@ RasPi</text>
 <text x="44.45" y="10.16" size="1.524" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">D20</text>
 <text x="46.99" y="10.16" size="1.524" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">D21</text>
 <text x="4.191" y="2.667" size="1.524" layer="22" font="vector" ratio="15" rot="MR180" align="center">Qwiic
-RasPi</text>
+PiHat</text>
 <text x="25.908" y="6.477" size="1.524" layer="22" font="vector" ratio="15" rot="MR0" align="center">3.3V I2C Ports</text>
 <text x="49.276" y="11.811" size="1.27" layer="21" font="vector" ratio="15" rot="SR270" align="center">USB</text>
 <wire x1="50.292" y1="11.811" x2="51.816" y2="11.811" width="0.3048" layer="21"/>

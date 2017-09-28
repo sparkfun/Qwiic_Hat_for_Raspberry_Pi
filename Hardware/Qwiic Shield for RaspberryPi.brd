@@ -232,7 +232,7 @@ PiHat</text>
 <wire x1="51.816" y1="11.811" x2="50.292" y2="11.811" width="0.3048" layer="22"/>
 <wire x1="51.816" y1="11.811" x2="51.308" y2="12.319" width="0.3048" layer="22"/>
 <wire x1="51.308" y1="11.303" x2="51.816" y2="11.811" width="0.3048" layer="22"/>
-<text x="48.641" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v01</text>
+<text x="48.641" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <text x="21.59" y="-26.67" size="1.778" layer="51" font="vector">A. England</text>
 <dimension x1="0" y1="0" x2="0" y2="22.86" x3="-8.89" y3="11.43" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="52.07" y1="0" x2="0" y2="0" x3="26.035" y3="-5.08" textsize="1.778" layer="47" unit="inch"/>

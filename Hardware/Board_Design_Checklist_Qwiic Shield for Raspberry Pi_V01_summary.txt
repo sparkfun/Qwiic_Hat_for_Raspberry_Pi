@@ -1,9 +1,0 @@
-1) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
-comment: 5v vs 3.3V
-
-2) Is the I2C address in the schematic? [n/a]
-comment: shield, no i2c address
-
-3) Are there any natural bridges on SMT components? [YES]
-comment: 5V, top left
-

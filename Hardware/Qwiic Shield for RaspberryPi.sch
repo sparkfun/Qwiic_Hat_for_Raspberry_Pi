@@ -28048,7 +28048,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="168.148" y="11.43" size="2.54" layer="94" font="vector">N. Seidle</text>
 <text x="38.1" y="160.02" size="3.048" layer="97" font="vector" ratio="12" align="center">Raspberry Pi</text>
-<text x="238.76" y="7.62" size="1.778" layer="94" font="vector" ratio="12">V01</text>
+<text x="238.76" y="7.62" size="1.778" layer="94" font="vector" ratio="12">V10</text>
 <text x="210.82" y="162.56" size="3.048" layer="97" font="vector" ratio="12" align="center">I2C Connections</text>
 <text x="96.52" y="160.02" size="3.048" layer="97" font="vector" ratio="12" align="center">Proto Connections</text>
 <text x="157.48" y="134.62" size="3.048" layer="97" font="vector" ratio="12" align="center">Power</text>
