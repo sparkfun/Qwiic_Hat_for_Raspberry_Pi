@@ -4040,7 +4040,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="5.334" y="4.445" rot="MR0"/>
 <element name="U$2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="40.767" y="4.318"/>
-<element name="U3" library="SparkFun-Connectors" package="RASPBERRY_PI_SHIELD_BOTTOM_ENTRY_NOHOLES" value="RASPBERRY_PI" x="-6.35" y="13.97"/>
+<element name="U3" library="SparkFun-Connectors" package="RASPBERRY_PI_SHIELD_BOTTOM_ENTRY_NOHOLES" value="" x="-6.35" y="13.97">
+<attribute name="PROD_ID" value="CONN-13790" x="-6.35" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="" x="-6.35" y="13.97" size="1.778" layer="27" display="off"/>
+</element>
 <element name="J12" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="13.97" y="8.89"/>
 <element name="J2" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="19.05" y="8.89"/>
 <element name="J3" library="SparkFun-Connectors" package="1X04_NO_SILK" value="" x="24.13" y="8.89">

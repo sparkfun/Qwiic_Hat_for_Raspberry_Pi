@@ -27710,7 +27710,10 @@ to be daisy chained easily.&lt;/p&gt;
 <connect gate="U1" pin="TX/D14" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-13790" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -28010,7 +28013,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_FEMALE_PTH"/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH" value="SFE_LOGO_NAME.1_INCH"/>
-<part name="U3" library="SparkFun-Connectors" deviceset="RASPBERRY_PI_40" device="BTM-NOHOLES" value="RASPBERRY_PI"/>
+<part name="U3" library="SparkFun-Connectors" deviceset="RASPBERRY_PI_40" device="BTM-NOHOLES" value=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="J12" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>

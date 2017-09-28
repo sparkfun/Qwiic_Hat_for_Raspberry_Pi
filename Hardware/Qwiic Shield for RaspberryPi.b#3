@@ -4029,7 +4029,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-8.89" y="-24.13"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="7.493" y="6.096"/>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3.81" y="13.97" rot="R180"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="12.7" rot="R180"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="50.8" y="2.54" rot="R180"/>
 <element name="J1" library="SparkFun-Connectors" package="1X04_1MM_RA" value="Qwiic Right Angle" x="39.37078125" y="5.08011875">
 <attribute name="PROD_ID" value="CONN-13694" x="39.37078125" y="5.08011875" size="1.778" layer="27" display="off"/>
@@ -4073,7 +4073,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" value="Qwiic Right Angle" x="30.48" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="50.8" y="2.54" rot="MR0"/>
-<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="3.81" y="13.97" rot="MR0"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="1.27" y="12.7" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="2.54" y="-26.67"/>
 </elements>
 <signals>
@@ -4223,7 +4223,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C1" pad="1"/>
 <contactref element="U2" pad="1"/>
 <contactref element="U2" pad="3"/>
-<wire x1="2.02" y1="15.905" x2="2.02" y2="8.89" width="0.3048" layer="1"/>
 <wire x1="2.02" y1="8.89" x2="2.02" y2="6.35" width="0.3048" layer="1"/>
 <wire x1="2.02" y1="6.35" x2="2.02" y2="5.473" width="0.3048" layer="1"/>
 <wire x1="2.02" y1="5.473" x2="2.5099" y2="4.9831" width="0.3048" layer="1"/>
@@ -4233,9 +4232,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="2.5099" y1="3.49" x2="3.241" y2="3.49" width="0.3048" layer="1"/>
 <wire x1="3.241" y1="3.49" x2="3.429" y2="3.302" width="0.3048" layer="1"/>
 <wire x1="3.429" y1="3.302" x2="3.429" y2="1.651" width="0.3048" layer="1"/>
-<wire x1="3.81" y1="8.89" x2="2.02" y2="8.89" width="0.3048" layer="1"/>
-<wire x1="4.56" y1="15.905" x2="2.02" y2="15.905" width="0.3048" layer="1"/>
+<wire x1="3.81" y1="8.89" x2="2.032" y2="8.89" width="0.3048" layer="1"/>
 <wire x1="2.96" y1="6.35" x2="2.02" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="2.02" y1="8.89" x2="2.032" y2="8.89" width="0.3048" layer="1"/>
+<wire x1="2.032" y1="8.89" x2="2.032" y2="10.795" width="0.3048" layer="1"/>
+<wire x1="2.032" y1="10.795" x2="3.302" y2="12.065" width="0.3048" layer="1"/>
+<wire x1="3.302" y1="12.065" x2="3.302" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="2.02" y1="15.905" x2="2.02" y2="14.49" width="0.3048" layer="1"/>
+<wire x1="2.02" y1="14.49" x2="2.54" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="2.54" y1="13.97" x2="3.302" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="3.302" y1="13.97" x2="4.191" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="4.191" y1="13.97" x2="4.572" y2="14.351" width="0.3048" layer="1"/>
+<wire x1="4.572" y1="14.351" x2="4.572" y2="15.893" width="0.3048" layer="1"/>
+<wire x1="4.572" y1="15.893" x2="4.56" y2="15.905" width="0.3048" layer="1"/>
 </signal>
 <signal name="RX">
 <contactref element="U3" pad="10"/>
