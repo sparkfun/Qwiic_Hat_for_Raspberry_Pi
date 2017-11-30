@@ -1,9 +1,9 @@
-SparkFun Qwiic PiHAT
+SparkFun Qwiic HAT for Raspberry Pi
 ========================================
 
-![Qwiic PiHAT](https://cdn.sparkfun.com/assets/parts/1/2/4/9/5/14459-01.jpg)
+![SparkFun Qwiic HAT for Raspberry Pi](https://cdn.sparkfun.com/assets/parts/1/2/4/9/5/14459-01.jpg)
 
-[*Qwiic PiHAT*](https://www.sparkfun.com/products/14459)
+[*SparkFun Qwiic HAT for Raspberry Pi*](https://www.sparkfun.com/products/14459)
 
 This is a board that connects the I<sup>2</sup>C bus on the Raspberry Pi to 4 Qwiic connectors.
 
@@ -15,7 +15,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-raspberry-pihat-hookup-guide)** - Basic hookup guide for the Qwiic PiHAT.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-hat-for-raspberry-pi-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic HAT for Raspberry Pi.
 
 License Information
 -------------------
