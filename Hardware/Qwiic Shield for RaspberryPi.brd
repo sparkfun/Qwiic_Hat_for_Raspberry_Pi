@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -174,7 +174,6 @@
 <text x="55.771" y="0.818" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v20</text>
 <text x="21.59" y="-26.67" size="1.778" layer="51" font="vector">A. England and Elias Santistevan</text>
 <dimension x1="0" y1="30.5" x2="0" y2="0" x3="-5" y3="15.25" textsize="1.778" layer="47"/>
-<dimension x1="3.5" y1="3.5" x2="0" y2="-2" x3="1.75" y3="-2" textsize="1.778" layer="47" dtype="horizontal"/>
 <dimension x1="3.5" y1="26.5" x2="32.5" y2="26.5" x3="18" y3="32.5" textsize="1.778" layer="47"/>
 <dimension x1="3.5" y1="26.5" x2="61.5" y2="26.5" x3="32.5" y3="37" textsize="1.778" layer="47"/>
 <circle x="3.5" y="3.5" radius="3.15" width="0" layer="41"/>
@@ -193,6 +192,7 @@
 <dimension x1="3.5" y1="3.5" x2="3.5" y2="26.5" x3="-2" y3="15" textsize="1.778" textratio="15" layer="47"/>
 <dimension x1="36.1" y1="3.5" x2="61.5" y2="3.5" x3="48.8" y3="-3.81" textsize="1.778" textratio="15" layer="47"/>
 <dimension x1="0" y1="0.000003125" x2="65" y2="0" x3="32.5" y3="-8.999996875" textsize="1.778" textratio="15" layer="47"/>
+<dimension x1="3.5" y1="3.5" x2="0" y2="3.4798" x3="1.799315625" y3="-5.05495625" textsize="1.778" textratio="15" layer="47"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
