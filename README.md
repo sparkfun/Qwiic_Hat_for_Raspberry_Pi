@@ -15,7 +15,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-phat-for-raspberry-pi-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic HAT for Raspberry Pi.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-phat-for-raspberry-pi-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic pHAT for Raspberry Pi.
 
 License Information
 -------------------
