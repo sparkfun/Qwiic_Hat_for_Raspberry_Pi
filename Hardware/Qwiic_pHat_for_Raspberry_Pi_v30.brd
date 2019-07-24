@@ -96,10 +96,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -195,8 +195,8 @@
 <dimension x1="3.5" y1="3.5" x2="0" y2="3.4798" x3="1.799315625" y3="-5.05495625" textsize="1.778" textratio="15" layer="47"/>
 <text x="9.906" y="19.558" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="10.16" y="16.002" size="1.778" layer="21" font="vector" ratio="15">-</text>
-<text x="11.176" y="19.558" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
-<text x="11.43" y="16.002" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
+<text x="7.112" y="19.558" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
+<text x="7.112" y="16.002" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3478,7 +3478,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-08399" x="3.81" y="20.574" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="5.08" y="21.844" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="POWER_OFF" x="48.768" y="19.558" smashed="yes" rot="R270">
+<element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_5.2MM" value="BUTTON GPI017" x="48.768" y="19.558" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.435" y="19.558" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="SWCH-14139" x="48.768" y="19.558" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="46.101" y="19.558" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
@@ -3508,6 +3508,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$8" library="All labels" package="BUTTON2" value="" x="45.466" y="15.24" smashed="yes"/>
 <element name="U$9" library="All labels" package="GPIO173" value="" x="45.466" y="13.716" smashed="yes"/>
 <element name="U$10" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.3" value="" x="32.258" y="11.684" smashed="yes" rot="MR0"/>
+<element name="U$11" library="All labels" package="5V0" value="" x="6.604" y="14.224" smashed="yes" rot="MR0"/>
+<element name="U$12" library="All labels" package="POWER1" value="" x="6.604" y="12.954" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -3689,7 +3691,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="D16">
 <contactref element="J10" pad="36"/>
 </signal>
-<signal name="D17">
+<signal name="BUTTON/D17">
 <contactref element="J10" pad="11"/>
 <contactref element="S1" pad="3"/>
 <contactref element="R3" pad="1"/>
