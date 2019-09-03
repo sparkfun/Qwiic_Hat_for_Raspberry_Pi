@@ -170,9 +170,9 @@
 <wire x1="3" y1="30.5" x2="0" y2="27.5" width="0.2032" layer="20" curve="90"/>
 <wire x1="0" y1="27.5" x2="0" y2="3" width="0.2032" layer="20"/>
 <wire x1="0" y1="3" x2="3" y2="0" width="0.2032" layer="20" curve="90"/>
-<text x="24.638" y="-28.702" size="1.778" layer="51" font="vector">N. Seidle</text>
+<text x="30.226" y="-12.954" size="1.778" layer="51" font="vector">N. Seidle</text>
 <text x="55.771" y="0.818" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v30</text>
-<text x="23.368" y="-31.242" size="1.778" layer="51" font="vector">A. England and Elias Santistevan</text>
+<text x="28.956" y="-15.494" size="1.778" layer="51" font="vector">A. England and Elias Santistevan</text>
 <dimension x1="0" y1="30.5" x2="0" y2="0" x3="-5" y3="15.25" textsize="1.778" layer="47"/>
 <dimension x1="3.5" y1="26.5" x2="32.5" y2="26.5" x3="18" y3="32.5" textsize="1.778" layer="47"/>
 <dimension x1="3.5" y1="26.5" x2="61.5" y2="26.5" x3="32.5" y3="37" textsize="1.778" layer="47"/>
@@ -1985,12 +1985,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="4" x="3.3" y="0.775" dx="0.6" dy="1.55" layer="1"/>
 <smd name="NC1" x="-1" y="3.2" dx="1.2" dy="2" layer="1"/>
 <smd name="NC2" x="4.6" y="3.2" dx="1.2" dy="2" layer="1"/>
-<wire x1="3.69" y1="3.87" x2="-0.1" y2="3.87" width="0.2" layer="21"/>
-<wire x1="-1.44" y1="1.33" x2="-1.44" y2="0.68" width="0.2" layer="21"/>
-<wire x1="-1.44" y1="0.68" x2="-0.68" y2="0.68" width="0.2" layer="21"/>
-<wire x1="5.05" y1="1.35" x2="5.05" y2="0.66" width="0.2" layer="21"/>
-<wire x1="5.05" y1="0.66" x2="4.32" y2="0.66" width="0.2" layer="21"/>
-<circle x="-0.17" y="-0.43" radius="0.143178125" width="0" layer="21"/>
+<wire x1="3.69" y1="3.87" x2="-0.1" y2="3.87" width="0.2032" layer="21"/>
+<wire x1="-1.44" y1="1.33" x2="-1.44" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="-1.44" y1="0.68" x2="-0.68" y2="0.68" width="0.2032" layer="21"/>
+<wire x1="5.05" y1="1.35" x2="5.05" y2="0.66" width="0.2032" layer="21"/>
+<wire x1="5.05" y1="0.66" x2="4.32" y2="0.66" width="0.2032" layer="21"/>
+<circle x="-0.17" y="-0.43" radius="0.2032" width="0" layer="21"/>
 <wire x1="-1.143" y1="3.556" x2="-1.524" y2="3.556" width="0.1" layer="51"/>
 <wire x1="-1.524" y1="3.556" x2="-1.524" y2="3.175" width="0.1" layer="51"/>
 <wire x1="-1.524" y1="3.175" x2="-1.143" y2="3.175" width="0.1" layer="51"/>
@@ -2386,55 +2386,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.52" y1="-0.74" x2="3.52" y2="-0.7" layer="21"/>
 <rectangle x1="0.6" y1="-0.78" x2="3.44" y2="-0.74" layer="21"/>
 <rectangle x1="0.72" y1="-0.82" x2="3.32" y2="-0.78" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="SparkX">
-<packages>
-<package name="QWIIC_BOARD_MOUNT_NOHOLES">
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.127" layer="51"/>
-<text x="0" y="0" size="0.508" layer="51" ratio="15" align="center">Qwiic Board</text>
-<circle x="-1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="-5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="0" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="2.54" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<circle x="5.08" y="11.43" radius="0.7239" width="0.5588" layer="51"/>
-<wire x1="-12.22" y1="1.5" x2="-12.22" y2="-1.5" width="0.254" layer="51"/>
-<wire x1="-9.62" y1="3" x2="-7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-2.25" x2="-7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="-3" x2="-9.62" y2="-3" width="0.254" layer="51"/>
-<wire x1="-7.97" y1="3" x2="-7.97" y2="2.25" width="0.254" layer="51"/>
-<circle x="-7.32" y="2.5" radius="0.1414" width="0.4" layer="51"/>
-<rectangle x1="-8.29" y1="1.2" x2="-6.94" y2="1.8" layer="51"/>
-<rectangle x1="-8.29" y1="0.2" x2="-6.94" y2="0.8" layer="51"/>
-<rectangle x1="-8.29" y1="-0.8" x2="-6.94" y2="-0.2" layer="51"/>
-<rectangle x1="-8.29" y1="-1.8" x2="-6.94" y2="-1.2" layer="51"/>
-<rectangle x1="-12.29" y1="2.2" x2="-10.3" y2="3.4" layer="51"/>
-<rectangle x1="-12.29" y1="-3.4" x2="-10.3" y2="-2.2" layer="51"/>
-<wire x1="12.22" y1="-1.5" x2="12.22" y2="1.5" width="0.254" layer="51"/>
-<wire x1="9.62" y1="-3" x2="7.97" y2="-3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="2.25" x2="7.97" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="3" x2="9.62" y2="3" width="0.254" layer="51"/>
-<wire x1="7.97" y1="-3" x2="7.97" y2="-2.25" width="0.254" layer="51"/>
-<circle x="7.32" y="-2.5" radius="0.1414" width="0.4" layer="51"/>
-<rectangle x1="6.94" y1="-1.8" x2="8.29" y2="-1.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="-0.8" x2="8.29" y2="-0.2" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="0.2" x2="8.29" y2="0.8" layer="51" rot="R180"/>
-<rectangle x1="6.94" y1="1.2" x2="8.29" y2="1.8" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="-3.4" x2="12.29" y2="-2.2" layer="51" rot="R180"/>
-<rectangle x1="10.3" y1="2.2" x2="12.29" y2="3.4" layer="51" rot="R180"/>
-<circle x="-10.16" y="10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="10.16" y="10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="-10.16" y="-10.16" radius="1.778" width="0.127" layer="51"/>
-<circle x="10.16" y="-10.16" radius="1.778" width="0.127" layer="51"/>
-<text x="-7.62" y="-12.065" size="0.508" layer="51" ratio="15" align="center">0.13"</text>
 </package>
 </packages>
 </library>
@@ -4327,9 +4278,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-7.112" y="-28.702" smashed="yes">
-<attribute name="DESIGNER" value="" x="-7.112" y="-28.702" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="-7.112" y="-28.702" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-1.524" y="-12.954" smashed="yes">
+<attribute name="DESIGNER" value="" x="-1.524" y="-12.954" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="" x="-1.524" y="-12.954" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.52" y="29.56" smashed="yes" rot="R180"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="57.33" y="1.3146" smashed="yes" rot="R180"/>
@@ -4345,7 +4296,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="57.33" y="1.31" smashed="yes" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.52" y="29.56" smashed="yes" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="4.318" y="-31.242" smashed="yes"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="9.906" y="-15.494" smashed="yes"/>
 <element name="J1" library="SparkFun-Connectors" package="2X20" value="RASPBERRYPI-40-PIN-GPIO_PTH_NO_SHROUD" x="8.37" y="25.2" smashed="yes">
 <attribute name="NAME" x="7.1" y="29.264" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="7.1" y="22.787" size="0.6096" layer="27" font="vector" ratio="20"/>
@@ -4391,8 +4342,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="16.858" y="10.4892" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U$2" library="Labels" package="I2C-()" value="" x="13.2588" y="15.1384" smashed="yes"/>
-<element name="U$4" library="SparkX" package="QWIIC_BOARD_MOUNT_NOHOLES" value="" x="13.6906" y="-6.6802" smashed="yes"/>
-<element name="U$5" library="SparkX" package="QWIIC_BOARD_MOUNT_NOHOLES" value="" x="51.3334" y="-6.6802" smashed="yes"/>
 <element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2" value="" x="3.81" y="19.05" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.35" y="20.32" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08399" x="3.81" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
