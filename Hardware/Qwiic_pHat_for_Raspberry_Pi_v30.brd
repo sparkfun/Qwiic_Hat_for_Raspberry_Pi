@@ -4424,7 +4424,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="58.928" y="14.478" extent="1-16" drill="0.508"/>
 <via x="55.753" y="17.272" extent="1-16" drill="0.508"/>
 <via x="18.288" y="20.193" extent="1-16" drill="0.508"/>
-<via x="26.289" y="20.193" extent="1-16" drill="0.508"/>
+<via x="24.765" y="20.193" extent="1-16" drill="0.508"/>
 <via x="33.02" y="14.351" extent="1-16" drill="0.508"/>
 <via x="44.704" y="16.383" extent="1-16" drill="0.508"/>
 <via x="39.37" y="20.32" extent="1-16" drill="0.508"/>
